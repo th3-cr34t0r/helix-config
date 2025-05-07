@@ -1,4 +1,4 @@
-theme = "jetbrains_dark"                                                                                                                                                               
+theme = "tokyonight"
 
 [editor]
 mouse = false
@@ -20,10 +20,20 @@ t = "move_visual_line_down"
 n = "move_visual_line_up"
 s = "move_char_right"
 
-m = "move_prev_word_start"
+o = "move_prev_word_start"
+e = "move_next_word_end"
 
 [keys.normal.g]
 n = "goto_next_buffer"
 t = "goto_previous_buffer"
 h = "goto_line_start"
 s = "goto_line_end"
+
+[keys.normal.a]
+h = "jump_view_left"
+t = "jump_view_down"
+n = "jump_view_up"
+s = "jump_view_right"
+x = "wclose"
+v = "vsplit"
+w = "hsplit"
