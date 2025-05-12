@@ -22,11 +22,12 @@ s = "move_char_right"
 
 o = "move_prev_word_start"
 e = "move_next_word_end"
+w = "no_op"
 
 [keys.normal.g]
-n = "goto_next_buffer"
-t = "goto_previous_buffer"
 h = "goto_line_start"
+t = "goto_previous_buffer"
+n = "goto_next_buffer"
 s = "goto_line_end"
 
 [keys.normal.a]
