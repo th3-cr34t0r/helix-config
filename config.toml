@@ -1,4 +1,4 @@
-theme = "github_dark"
+theme = "jetbrains_dark"
 
 [editor]
 mouse = false
